@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://www.myserver.com" method="POST">
+    <div>
+    <label for="fullname">Họ và tên:</label>
+    <input type="text" id="fullname" name="fullname"> 
+    </div>
+    <br />
+    <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    </div>
+    <br />
+    <div>
+    <label for="dob">Ngày sinh:</label>
+    <input type="date" id="dob" name="dob">
+    </div>
+    <br />
+    <div>
+    <label>Giới tính:</label>
+    <input type="radio" id="male" name="gender" value="Nam">
+    <label for="male" style="display: inline;">Nam</label>
+    <input type="radio" id="female" name="gender" value="Nữ">
+    <label for="female" style="display: inline;">Nữ</label>
+    </div>
+    <br />
+    <div>
+    <label for="number">Số điện thoại:</label>
+    <input type="tel" name="number" id="number" pattern="[0-9]{10}" />
+    </div>
+    <br />
+    <div>
+    <label for="text">Chuyên ngành:</label>
+    <input type="text" name="text" id="text" />
+    </div>
+    <br />
+    <div>     
+    <label for="number">Năm nhập học:</label>
+    <input type="number" name="number" id="number" />
+    </div>
+    <br />
+    <div>
+    <label for="number">Điểm GPA:</label>
+    <input type="number" name="number" id="number" />
+    </div>
+    <br />
+    <div>
+    <label for="address">Địa chỉ:</label>
+    <textarea name="address" id="address"></textarea>
+    </div>
+    <br />
+    <div>
+    <label for="class">Lớp học:</label>
+    <select name="class" id="class">
+    <option value="L1">Lớp 1</option>
+    <option value="L2">Lớp 2</option>
+    </select>
+    </div>
+    <br />
+    <div>
+    <label for="date">Ngày dăng ký học:</label>
+    <input type="datetime-local>" name="date" id="date" />
+    </div>
+    <br />
+    <div>
+    <input type="submit" value="Gửi thông tin" />
+    </div>
+    </form>
+</body>
+</html>
